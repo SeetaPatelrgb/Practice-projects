@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-color: antiquewhite; 
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: aqua; */
+    width: 300px;
+}
+.butt
+{
+text-transform: capitalize;
+padding: 5px 10px;
+box-shadow: 2px 2px 15px rgb(131, 127, 127);
+border: none;
+outline: none;
+border-radius: 5px;margin: 20px 10px;
+width: 100px;
+cursor: pointer;
+}
+.steps
+{
+ display: flex;
+ justify-content: space-between; 
+
+gap: 80px;
+}
+.steps .circle
+{
+    background-color:gray ;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: aliceblue;
+border: 2px solid rgb(192, 212, 230);
+}
+.circle.active
+{background-color: rgb(80, 138, 63);
+
+}
+.progress_bar
+{
+  height: 2px;  
+  width: 100%;
+  background-color: azure;
+position: absolute;
+top: 50%;
+z-index: -1;
+}
+.progress_container
+{
+    position: relative;
+}
+.progress_bar .indicator
+{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(29, 118, 234);
+}
+.btns
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

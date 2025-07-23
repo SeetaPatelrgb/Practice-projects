@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 107, 172);
+  /* position: fixed;
+        top: 0;
+        z-index: -1;
+        background: url("https://raw.githubusercontent.com/kevin-powell/shoes/refs/heads/master/img/shoe-3.png"); */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.big_cup {
+  position: relative;
+  height: 270px;
+  width: 160px;
+  background-color: aliceblue;
+  border-radius: 0 0 30px 30px;
+  border: 3px solid blue;
+  /* display: flex;
+ justify-content: center;
+ align-items: center; */
+}
+.remaining {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cup_wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  /* width: 300px; */
+  gap: 10px;
+}
+.cup {
+  width: 60px;
+  height: 100px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 15px 15px;
+  border: 3px solid blue;
+}
+
+p {
+  font-size: large;
+  color: aliceblue;
+}
+h1 {
+  color: aliceblue;
+}
+.same {
+  box-shadow: 2px 2px 10px rgb(2, 8, 16);
+}
+.fill {
+  background-color: #6ab3f8;
+}
+
+.percentage {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #6ab3f8;
+  color: white;
+  text-align: center;
+  /* visibility: hidden; */
+  transition: height 0.3s ease;
+    border-radius: 0 0 15px 15px;
+}

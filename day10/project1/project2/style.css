@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 30px;
+}

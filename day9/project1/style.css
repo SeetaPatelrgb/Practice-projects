@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: azure;
+    padding: 30px;
+    height: 70%;
+    gap: 15px;
+    box-shadow: 1px 1px 10px rgb(206, 206, 206);
+}
+.append_con
+{
+    display: flex;
+    justify-content: space-around;
+gap: 10px;
+width: 100%;
+}
+.res_box
+{
+ padding: 5px 20px;  
+ border: 2px solid rgb(220, 193, 143); 
+ margin-left: 10px;
+ border-radius: 5px;
+}
+.btns button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 18px;
+      box-shadow: 1px 1px 10px rgb(206, 206, 206);
+      margin: 10px;
+    cursor: pointer;
+}
+.sent_disp
+{
+    font-size: 24px;
+}
+#arrow
+{
+  cursor: pointer;  
+}

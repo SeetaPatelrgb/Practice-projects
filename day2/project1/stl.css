@@ -1,0 +1,75 @@
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px rgb(50, 77, 68);
+    padding: 30px;
+}
+.main h1 ,p{
+    color: #fff;
+}
+#btn
+{
+  margin: auto;  
+  display: block;
+  padding: 10px 20px;
+  width: 270px;
+  border-radius: 5px;
+  outline: 0;
+  /* border-color: #fff; */
+      box-shadow: 2px 1px 15px rgb(50, 77, 68);
+  border: none;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+  /* box-shadow: 2px 2px 15px ; */
+}
+.boxes
+{position: relative;
+    color: #fff;
+    font-size: 20px;
+/* background-color: blue; */
+margin-bottom: 15px;
+width:250px;
+padding: 10px;
+}
+
+.boxes input
+{
+display: block;  
+background-color: transparent;
+padding: 5px 10px ;
+width: 100%;
+outline: none;
+border: none;
+border-bottom: 2px #fff solid;
+}
+.boxes label
+{position: absolute;
+top: 10px;  
+
+}
+.boxes input:focus+label
+{
+    outline: 0;
+    color: lightblue;
+    transform: translateY(-20px);
+    /* border-bottom:2px solid lightskyblue ; */
+}
+.boxes input:focus
+{
+    border-bottom:2px solid lightskyblue ;  
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="curr_img">
+            <img src="https://i.ibb.co/rvJd2XR/rate.png" alt="" id="imge">
+        </div>
+        <!-- img div ende here -->
+        <div class="text">
+            <h1>Exchange rate calculator</h1>
+            <p>Choose the currency and the amount to get the exchange rate</p>
+        </div>
+        <!-- text dic ended -->
+        <div class="upper convert">
+            <select name="" id="first">
+                <option>USD</option>
+                <!-- <option>EUR</option>
+                <option>British pound sterling</option>
+                <option>AUD</option> -->
+                <option>INR</option>
+            </select>
+            <!-- for currency input -->
+            <input type="number" id="curre_in1">
+        </div>
+        <!-- upper class ended -->
+        <div class="info">
+            <button id="swap">Swap</button>
+            <p>
+                <span id="choosen"></span>
+                <span id="val"></span>
+            </p>
+        </div>
+        <!-- info div ended -->
+        <div class="lower convert">
+           <select name="" id="second">
+                <option>USD</option>
+                <!-- <option>EUR</option>
+                <option>British pound sterling</option>
+                <option>AUD</option> -->
+                 <option>INR</option>
+            </select>
+            <!-- for currency input -->
+           <!-- <input type="number" id="curre_in2"> -->
+            <span id="answer">hhjj</span>
+        </div>
+        <button id="change">convert</button>
+    </div>
+    <!-- container div ended -->
+    <script src="script.js"></script>
+</body>
+
+</html>
