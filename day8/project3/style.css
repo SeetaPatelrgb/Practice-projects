@@ -1,20 +1,20 @@
 body
 {
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0px;
     padding: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-
+overflow-y: scroll;
 }
 .container
 {
  /* background-color: rgb(144, 196, 196);   */
    /* margin: 0;
     padding: 0; */
-    height: 70%;
+    /* height: 70%; */
     width: 68%;
     display: flex;
     flex-direction: column;
@@ -47,13 +47,14 @@ body
 .bubbles
 {
     /* background-color: rgb(131, 190, 170); */
-    height: 80%;
+    /* height: 80%; */
  display: flex;
  flex-wrap: wrap;
     padding: 10px;
     margin: 0;padding: 10px;
     gap: 5px;
     justify-content: center;
+    height: fit-content;
 }
 .bubble{
  border-radius: 50%; 
@@ -64,4 +65,25 @@ body
  display: flex;
  justify-content: center;
  align-items: center;
+}
+
+.anime
+{
+ animation: break 0.1 ease-in-out;  
+/* scale: 1.2;
+transition:0.01s all ease; */
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+@keyframes break{
+   from{
+    transform: scale(1.5);
+   } 
+   to{
+    transform: scale(0.1);
+   }
 }
